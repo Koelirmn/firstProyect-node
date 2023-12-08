@@ -1,0 +1,50 @@
+{
+  "name": "proyect-node",
+  "version": "1.0.0",
+  "description": "the first time use node :)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koelirmn/firstProyect-node.git"
+  },
+  "keywords": [
+    "node",
+    "first",
+    "proyect",
+    "nextJs"
+  ],
+  "author": "David Garro Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koelirmn/firstProyect-node/issues"
+  },
+  "homepage": "https://github.com/Koelirmn/firstProyect-node#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "picocolors": "^1.0.0",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.0.2",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
